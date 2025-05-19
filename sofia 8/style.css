@@ -1,0 +1,37 @@
+html{
+    color-scheme: light dark;
+    header{
+        display: flex;
+        justify-content: space-between;
+        output{
+            font-family: monospace;
+            font-size: 2rem;
+        }
+    }
+}
+
+main{
+    display: flex;
+    gap: 1rem;
+    form{
+        flex: 1; 
+        width: 50%;
+        zoom: 2;
+    }
+    video{
+        flex: 1;
+        width: 50%;
+    }
+}
+@media screen and (max-width: 600px){
+    main{
+        flex-direction: column;
+        form{
+            width: 100%;
+        }
+        video{
+            width: 100%;
+        }
+    }
+    
+}
